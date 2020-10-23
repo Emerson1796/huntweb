@@ -1,102 +1,68 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Starter Reactjs
+## Available Scripts
 
-### Hunt Went
+In the project directory, you can run:
 
-![huntweb](/images/hunt-web.jpg)
+### `npm start`
 
-#### Atualização: 25 de agosto de 2020 - Done
-#### Criação: 12 de fevereiro de 2019
-#### Prática : @douglasabnovato
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![Rocketseat](/images/logo-rocketseat.png)
-![Git](/images/logo-git.png)
-![GitHub](/images/logo-github.png)
-![React JS](/images/logo-reactjs.jpg)
-![HTML-CSS-JS](/images/logo-html-css-js.jpeg)
-![VSCode](/images/logo-VSCode.png)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-#### 1. O que é ReactJS ?
+### `npm test`
 
-- [x] 1.1. ReactJS construir o Frontend
-- [x] 1.2. uma biblioteca para desenvolver em javascript
-- [x] 1.3. Acessar API Rest
-- [x] 1.4. Roteamento
-- [x] 1.5. Componentes
-- [x] 1.6. Estados e Propriedades
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### 2. Criando Projeto
+### `npm run build`
 
-- [x] 2.1. `node -v`
-- [x] 2.2. `npm -v`
-- [x] 2.3. `yarn -v`
-- [x] 2.4. `create-react-app huntweb`
-- [x] 2.5. `cd huntweb`
-- [x] 2.6. `code .`
-- [x] 2.7. `npm start`
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### 3. O que são componentes ?
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-- [x] 3.1. conceito de componentização
-- [x] 3.2. react
-- [x] 3.3. react-dom 
-- [x] 3.4. método do componente: render
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### 4. Criando Header ?
+### `npm run eject`
 
-- [x] 4.1. na pasta src, na pasta componentes, na pasta Header, então criar todos arquivos desse componente: index.js, .
-- [x] 4.2. Estilização do component Header: styles.css
-- [x] 4.3. Estilização global 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### 5. Buscando produtos da API 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- [x] 5.1. acessar API Rest feita em nodejs e exibir na nossa tela em ReactJS.
-- [x] 5.2. fiz essa api no repositório nodejs-api
-- [x] 5.3.1. essa API Rest fornece o dados dos produtos: id, title, description, url, ( createdAt, não será exibido) 
-- [x] 5.3.2. informações de paginação: docs, total, limit, page, pages
-- [x] 5.4. biblioteca axios: `yarn add axios`: permite acessar um endereço externo: pasta services/api.js
-- [x] 5.5. A URL da nossa API: `http://rocketseat-node.herokuapp.com/api`
-- [x] 5.6. Insomnia: usar essa aplicação para gerir os dados da api
-- [x] 5.7. Na api, os produtos estão dentro da informação `docs` 
-- [x] 5.8. A busca dessas informações na api será realizada pelo main/index.js.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-#### 6. Armazenamento no estado
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- [x] 6.1. state, estado, acredito ser o principal conceito do reactjs
-- [x] 6.2. o react trabalha com variável state e não variável normal. 
-- [x] 6.3. o `estado` trabalha em manipular a variável objeto
+## Learn More
 
-#### 7. Listando produtos
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [x] 7.1. estilizar a exibição dos produtos
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### 8. Páginas anterior / próxima
+### Code Splitting
 
-- [x] 8.1. fazer a paginação dos produtos
-- [x] 8.2. criar os botões: anterior e próximo
-- [x] 8.3. estilização dos botões
-- [x] 8.4. chamar um método toda vez que o usuário clicar no botão
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-#### 9. Configurando Navegação (Roteamento)
+### Analyzing the Bundle Size
 
-- [x] 9.1. Usar rotas para a navegação: `yarn add react-router-dom`
-- [x] 9.2. Componente de detalhes dos produtos: browserrouter, switch, route 
-- [x] 9.3. Redirecionar o usuário conforme cada rota
-- [x] 9.4. Componente Link para cada um dos botões
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-#### 10. Navegando para o detalhe
+### Making a Progressive Web App
 
-- [x] 10.1. Buscar os dados dos produtos da API Rest
-- [x] 10.2. Exibir em tela na pages products
-- [x] 10.3.1. state
-- [x] 10.3.2. async await
-- [x] 10.3.3. props 
-- [x] 10.3.4. componentdidmount
-- [x] 10.4. Estilização da product info
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-#### Encerramos 
+### Advanced Configuration
 
-Componentização, roteamento, ciclos de vida, utilização de API Rest, estado. 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Por @douglasabnovato <br/>
-:. De Diego Fernandes [`ReactJS` - Rocketseat - Starter](https://station.rocketseat.com.br/courses/starter)
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
